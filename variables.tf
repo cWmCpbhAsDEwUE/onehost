@@ -7,55 +7,55 @@ variable "vm-password" {
 }
 
 variable "vsphere-host" {
-  type    = string
+  type = string
 }
 
 variable "vmcluster-name" {
-  type    = string
+  type = string
 }
 
 variable "data-center" {
-  type    = string
+  type = string
 }
 
 variable "data-store" {
-  type    = string
+  type = string
 }
 
 variable "vm-network" {
-  type    = string
+  type = string
 }
 
 variable "vm-template" {
-  type    = string
+  type = string
 }
 
 variable "vm-guest-name" {
-  type    = string
+  type = string
 }
 variable "local-admin-pwd" {
   type = string
 }
 
 variable "ipv4-addr" {
-  type    = string
+  type = string
 }
 
 variable "ipv4-mask" {
-  type    = number
+  type = number
 }
 
 variable "ipv4-gw" {
-  type    = string
+  type = string
 }
 
 variable "dns-list" {
-  type    = list(string)
+  type = list(string)
 }
 
 variable "num-cpus" {
-  type    = number
+  type = number
 }
 variable "vm-memory" {
-  type    = number
+  type = number
 }

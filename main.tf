@@ -33,7 +33,7 @@ resource "vsphere_virtual_machine" "windows_vm" {
   wait_for_guest_net_timeout = 30
   wait_for_guest_ip_timeout  = 30
   num_cpus                   = var.num-cpus
-  memory                     = var.vm-memory 
+  memory                     = var.vm-memory
 
   #guest_id = "windows9Server64Guest"
   #firmware = "efi"
